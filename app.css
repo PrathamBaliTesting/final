@@ -1,0 +1,38 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set styles for the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Style the heading 1 */
+  h1 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraphs */
+  p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  /* Style links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
