@@ -18,7 +18,7 @@ jobs:
         run: pip install cfn-lint
 
       - name: Run cfn-lint
-        run: cfn-lint E:\LintTemplates\bad-template.yaml > lint-results.txt
+        run: cfn-lint E:/LintTemplates/bad-template.yaml > lint-results.txt
 
       - name: Convert cfn-lint results
         run: |
